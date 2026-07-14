@@ -1,0 +1,19 @@
+api_version = "2026-01"
+
+[[extensions]]
+name = "Arabic Name Profile"
+handle = "arabic-name-profile"
+uid = "a7c3e1f4-9b2d-4f6a-8c1e-5d9a2b7e4f31"
+type = "ui_extension"
+
+[[extensions.targeting]]
+module = "./src/ProfileBlock.js"
+target = "customer-account.profile.block.render"
+default_placement = "PROFILE1"
+
+[[extensions.targeting.metafields]]
+namespace = "custom"
+key = "arabic_name"
+
+[extensions.capabilities]
+api_access = true

@@ -1,0 +1,13 @@
+{
+  "arabicName": {
+    "heading": "Arabic name",
+    "label": "Arabic name",
+    "save": "Save",
+    "saved": "Arabic name saved",
+    "loading": "Loading Arabic name",
+    "loadError": "Could not load your profile. Please refresh the page.",
+    "saveError": "Could not save your Arabic name. Please try again.",
+    "apiNoData": "Could not load your data. Please try again.",
+    "apiError": "Something went wrong. Please try again."
+  }
+}
