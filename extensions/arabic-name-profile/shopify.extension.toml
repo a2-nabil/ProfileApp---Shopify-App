@@ -15,5 +15,13 @@ default_placement = "PROFILE1"
 namespace = "custom"
 key = "arabic_name"
 
+[[extensions.targeting]]
+module = "./src/OrderBlock.js"
+target = "customer-account.order-index.block.render"
+
+[[extensions.targeting.metafields]]
+namespace = "custom"
+key = "arabic_name"
+
 [extensions.capabilities]
 api_access = true

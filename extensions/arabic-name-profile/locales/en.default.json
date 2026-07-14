@@ -1,7 +1,7 @@
 {
   "arabicName": {
-    "heading": "Arabic name",
-    "label": "Arabic name",
+    "heading": "Arabic Name",
+    "label": "Your full name in Arabic",
     "save": "Save",
     "saved": "Arabic name saved",
     "loading": "Loading Arabic name",
@@ -9,5 +9,14 @@
     "saveError": "Could not save your Arabic name. Please try again.",
     "apiNoData": "Could not load your data. Please try again.",
     "apiError": "Something went wrong. Please try again."
+  },
+  "orderProfile": {
+    "heading": "Complete your profile to get your certificate",
+    "headingComplete": "Your profile is complete",
+    "description": "Please complete your profile so we can issue your certificate correctly.",
+    "descriptionComplete": "You're all set. Your certificate can be issued with the correct details.",
+    "progress": "Profile {{percent}}% complete",
+    "progressAccessibility": "Profile {{percent}} percent complete",
+    "button": "My profile"
   }
 }
